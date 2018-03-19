@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import UserList from "../containers/users-list";
+import UserDetail from "../containers/user-detail";
 
 export default class MainComponent extends React.Component{
     render(){ 
@@ -11,6 +12,7 @@ export default class MainComponent extends React.Component{
                         <UserList></UserList>
                 <hr></hr>
                 <h3>User Details</h3>
+                    <UserDetail></UserDetail>
             </div>
         );
     }
